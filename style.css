@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-page {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 450px;
+    gap: 50px;
+    background-color: #1F2937;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.top-page p,
+.top-page a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-items ul {
+    display: flex;
+    gap: 8px;
+}
+
+.top-content {
+    display: flex;
+    gap: 50px;
+}
+
+.description {
+    max-width: 200px;
+}
+
+.img-placeholder {
+    background-color: rgb(95, 92, 92);
+    width: 500px;
+}
+
+#SIGN-UP {
+    border-radius: 10px;
+    background: #3882F6;
+    padding: 10px 30px;
+    font-weight: bold;
+}

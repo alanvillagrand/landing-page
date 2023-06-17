@@ -12,6 +12,8 @@ a {
     color: white;
 }
 
+/* Top Page */
+
 .top-page {
     display: flex;
     flex-direction: column;
@@ -64,4 +66,93 @@ a {
     background: #3882F6;
     padding: 10px 30px;
     font-weight: bold;
+}
+
+/* Middle Top Page */
+
+.middle-top-page {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    background-color: #fdfdfd;
+    align-items: center;
+}
+
+.middle-top-page h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card p {
+    width: 150px;
+}
+
+.image-border {
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+    padding: 20px;
+    width: 130px;
+    height: 130px;
+}
+
+/* Middle Bottom Page */
+
+.middle-bottom-page {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 500px;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 700px;
+}
+
+/* Bottom Page */
+
+.bottom-page {
+    display: flex;
+    flex-basis: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-card {
+    border-radius: 10px;
+    background: #3882F6;
+    color: white;
+    width: 800px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.ad-card a {
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #f8f8f8;
+    width: 150px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
 }
